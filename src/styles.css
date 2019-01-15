@@ -63,3 +63,63 @@ h1 {
 button:focus {
   outline: none;
 }
+
+/*Media*/
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 10px;
+  }
+  .section-top .container {
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 576px) {
+  footer .container .row .col-sm-6 {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .navbar .navbar-nav {
+    align-items: flex-end;
+    padding-top: 0;
+  }
+  .navbar .nav-link {
+    color: white !important;
+  }
+  .navbar .nav-link {
+    padding: 29px 19px 26px !important;
+  }
+  .navbar .nav-item {
+    padding: 0;
+  }
+  .navbar .nav-item:first-child a,
+  .navbar .nav-item:last-child a {
+    padding-top: 26px !important;
+  }
+  .navbar .nav-item:nth-child(2) a {
+    padding-top: 28px !important;
+  }
+  .navbar .nav-link:active,
+  .navbar .nav-link:hover {
+    border-radius: 0 0 5px 5px;
+  }
+  .navbar .navbar-nav {
+    align-items: flex-end;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  .navbar-collapse {
+    margin-top: 0;
+    z-index: 0;
+  }
+}
+@media (max-width: 544px) {
+  h1 {
+    font-size: 53px;
+  }
+}
