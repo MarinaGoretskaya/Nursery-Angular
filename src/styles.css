@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+div, span, button, a, form, p {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 28px;
+  text-shadow: 0 0 5px #8aa77b;
+}
+
+.btn {
+  border: 2px solid #a1ad97;
+  padding: 17px 45px;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  outline: none;
+  text-transform: uppercase;
+  font-family: font76638, sans-serif;
+}
+button:focus {
+  outline: none;
+}

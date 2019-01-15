@@ -1,0 +1,35 @@
+.nav-buttom {
+  font-family: font76638, sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.nav-buttom .container {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.nav-buttom a {
+  color: #7b7b7b !important;
+  padding: 10px 18px !important;
+}
+.nav-buttom .active, .nav-buttom a:hover {
+  color: #8dc705 !important;
+}
+
+.footer-buttom {
+  background-color: #e4e4e4;
+  color: #919191;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+.footer-buttom .row {
+  padding: 26px 0;
+  justify-content: space-between;
+}
+.footer-buttom .row .col-lg-6:last-child {
+  text-align: right;
+  padding: 0;
+}
+.footer-buttom .row .col-lg-6:first-child {
+  padding-left: 0;
+}
