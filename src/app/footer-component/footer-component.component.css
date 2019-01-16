@@ -33,3 +33,11 @@
 .footer-buttom .row .col-lg-6:first-child {
   padding-left: 0;
 }
+
+
+
+@media (max-width: 576px) {
+  footer .container .row .col-sm-6 {
+    text-align: center;
+  }
+}

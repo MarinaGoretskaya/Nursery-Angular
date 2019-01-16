@@ -52,3 +52,16 @@
   font-size: 34px;
   margin: 34px 0 23px;
 }
+
+
+@media (max-width: 1000px) {
+  .section-top .container {
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 60px;
+  }
+}
+

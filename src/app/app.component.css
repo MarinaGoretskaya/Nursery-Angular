@@ -1,0 +1,125 @@
+body {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+div, span, button, a, form, p {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 28px;
+  text-shadow: 0 0 5px #8aa77b;
+}
+
+.btn {
+  border: 2px solid #a1ad97;
+  padding: 17px 45px;
+  border-radius: 5px;
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  outline: none;
+  text-transform: uppercase;
+  font-family: font76638, sans-serif;
+}
+button:focus {
+  outline: none;
+}
+
+/*Media*/
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 10px;
+  }
+  .section-top .container {
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 576px) {
+  footer .container .row .col-sm-6 {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .navbar .navbar-nav {
+    align-items: flex-end;
+    padding-top: 0;
+  }
+  .navbar .nav-link {
+    color: white !important;
+  }
+  .navbar .nav-link {
+    padding: 29px 19px 26px !important;
+  }
+  .navbar .nav-item {
+    padding: 0;
+  }
+  .navbar .nav-item:first-child a,
+  .navbar .nav-item:last-child a {
+    padding-top: 26px !important;
+  }
+  .navbar .nav-item:nth-child(2) a {
+    padding-top: 28px !important;
+  }
+  .navbar .nav-link:active,
+  .navbar .nav-link:hover {
+    border-radius: 0 0 5px 5px;
+  }
+  .navbar .navbar-nav {
+    align-items: flex-end;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  .navbar-collapse {
+    margin-top: 0;
+    z-index: 0;
+  }
+}
+@media (max-width: 544px) {
+  h1 {
+    font-size: 53px;
+  }
+}
