@@ -1,0 +1,11 @@
+.section-top__greeting {
+  background-color: rgba(59, 82, 34, 0.7);
+  border-radius: 5px;
+  padding: 23px 44px 35px;
+  text-align: center;
+  margin-bottom: 191px;
+}
+.section-top__greeting__text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
