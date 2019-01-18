@@ -12,6 +12,16 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MulchSupplierComponent } from './mulch-supplier/mulch-supplier.component';
 import { SoilsComponent } from './soils/soils.component';
 import { MulchFundraisersComponent } from './mulch-fundraisers/mulch-fundraisers.component';
+import { RouterModule } from "@angular/router";
+import { HomeComponent } from './home/home.component';
+
+const routes = [
+  { path: '', component: HomeComponent },
+  { path: 'mulch-suppliers', component: MulchSupplierComponent },
+  { path: 'soils', component: SoilsComponent },
+  { path: 'mulch-fundraisers', component: MulchFundraisersComponent },
+  { path: 'contact us', component: ContactUsComponent },
+]
 
 @NgModule({
   declarations: [
@@ -24,11 +34,13 @@ import { MulchFundraisersComponent } from './mulch-fundraisers/mulch-fundraisers
     ContactUsComponent,
     MulchSupplierComponent,
     SoilsComponent,
-    MulchFundraisersComponent
+    MulchFundraisersComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
