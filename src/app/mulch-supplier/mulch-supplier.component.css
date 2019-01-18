@@ -1,11 +1,13 @@
-p, li, h3, h5 {
-  color: black;
-}
+
 li {
   list-style-type: disc;
 }
 h5 {
   text-align: center;
   margin: 10px 0 5px;
+}
+.container {
+  padding: 15px 0;
+  background-color: #26311c;
 }
 

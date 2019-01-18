@@ -68,6 +68,13 @@ button:focus {
   outline: none;
 }
 
+.section-middle {
+  background-color: #26311c;
+  min-height: 600px;
+  padding: 15px 0;
+  /*border-bottom: 4px solid #e46107;  */
+}
+
 /*Media*/
 @media (max-width: 1000px) {
   .container {

@@ -15,13 +15,7 @@ import { MulchFundraisersComponent } from './mulch-fundraisers/mulch-fundraisers
 import { RouterModule } from "@angular/router";
 import { HomeComponent } from './home/home.component';
 
-const routes = [
-  { path: '', component: HomeComponent },
-  { path: 'mulch-suppliers', component: MulchSupplierComponent },
-  { path: 'soils', component: SoilsComponent },
-  { path: 'mulch-fundraisers', component: MulchFundraisersComponent },
-  { path: 'contact us', component: ContactUsComponent },
-]
+
 
 @NgModule({
   declarations: [
@@ -40,7 +34,7 @@ const routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes)
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
