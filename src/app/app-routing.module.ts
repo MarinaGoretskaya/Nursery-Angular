@@ -15,6 +15,8 @@ const routes: Routes = [
   { path: 'contact us', loadChildren: './contact-us/contact-us.module#ContactUsModule' },
 ];
 
+
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

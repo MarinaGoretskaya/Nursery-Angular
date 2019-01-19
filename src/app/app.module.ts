@@ -6,7 +6,7 @@ import { MulchSupplierModule } from "./mulch-supplier/mulch-supplier.module";
 import { SoilsModule } from "./soils/soils.module";
 import { MulchFundraisersModule } from "./mulch-fundraisers/mulch-fundraisers.module";
 import { ContactUsModule } from "./contact-us/contact-us.module";
-import { RouterModule } from "@angular/router";
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
