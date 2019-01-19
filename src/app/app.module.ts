@@ -41,9 +41,30 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+
+    HomeModule,
+    MulchSupplierModule,
+    SoilsModule,
+    MulchFundraisersModule,
+    ContactUsModule
   ],
+
+  exports: [
+    AppComponent,
+    HeaderComponentComponent,
+    FooterComponentComponent,
+    MainMiddleComponentComponent,
+    MainBottomComponentComponent,
+    MainGreetingComponent,
+    ContactUsComponent,
+    MulchSupplierComponent,
+    SoilsComponent,
+    MulchFundraisersComponent,
+    HomeComponent
+  ],
+
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
