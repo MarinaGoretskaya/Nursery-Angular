@@ -19,8 +19,9 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MulchSupplierComponent } from './mulch-supplier/mulch-supplier.component';
 import { SoilsComponent } from './soils/soils.component';
 import { MulchFundraisersComponent } from './mulch-fundraisers/mulch-fundraisers.component';
-
+import { RouterModule } from "@angular/router";
 import { HomeComponent } from './home/home.component';
+
 
 
 @NgModule({
@@ -40,12 +41,7 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule,
-    HomeModule,
-    MulchSupplierModule,
-    SoilsModule,
-    MulchFundraisersModule,
-    ContactUsModule
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
