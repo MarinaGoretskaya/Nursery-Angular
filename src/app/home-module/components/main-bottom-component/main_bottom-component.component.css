@@ -1,0 +1,56 @@
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+
+
+.section-buttom {
+  background-color: #c2caa7;
+  background: url('../../../../assets/images/main/background_bottom.jpg') no-repeat 0 center;
+  background-size: cover;
+  min-height: 580px;
+  margin-top: -115px;
+}
+.section-buttom .container {
+  padding-top: 82px;
+  padding-bottom: 95px;
+  color: #000;
+}
+.section-buttom .row {
+  max-width: 440px;
+}
+.section-buttom .col-sm {
+  padding: 0;
+}
+.section-buttom h2 {
+  padding-bottom: 32px;
+  font-size: 54px;
+  color: #48890a;
+  font-weight: 500;
+}
+
+.section-buttom h3 {
+  font-size: 34px;
+  font-weight: 300;
+}
+.section-buttom .btn {
+  margin-top: 23px;
+  color: #48890a;
+  border-color: #48890a;
+}
+.section-buttom .btn:hover {
+  background-color: #48890a;
+  color: #fff;
+}
+.section-buttom .btn:focus {
+  box-shadow: none !important;
+}
+
+
+
+
