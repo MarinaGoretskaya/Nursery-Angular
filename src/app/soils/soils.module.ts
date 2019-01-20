@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from "@angular/router";
-import { SoilsComponent } from "./soils.component";
 
-const routes: Routes = [
-  { path: 'soils', component: SoilsComponent}
-];
+import { SoilsComponent } from './soils.component';
+import { SoilsRoutingModule } from './soils-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +11,9 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes),
+    SoilsRoutingModule
+  ],
+  exports: [
     SoilsComponent
   ]
 })

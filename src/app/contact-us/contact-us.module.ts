@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from "@angular/router";
-import { ContactUsComponent } from "./contact-us.component";
 
+import { ContactUsComponent } from './contact-us.component';
+import { ContactUsRoutingModule } from './contact-us-routing.module';
 
-const routes: Routes = [
-  { path: 'contact us', component: ContactUsComponent}
-];
 
 @NgModule({
   declarations: [
@@ -14,8 +11,11 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    ContactUsComponent,
-    RouterModule.forChild(routes)
+    ContactUsRoutingModule,
+
+  ],
+  exports:[
+    ContactUsComponent
   ]
 })
 export class ContactUsModule { }

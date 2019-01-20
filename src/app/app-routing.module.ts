@@ -1,21 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-//import { ContactUsComponent } from './contact-us/contact-us.component';
-//import { MulchSupplierComponent } from './mulch-supplier/mulch-supplier.component';
-//import { SoilsComponent } from './soils/soils.component';
-//import { MulchFundraisersComponent } from './mulch-fundraisers/mulch-fundraisers.component';
-import { HomeComponent } from './home/home.component';
+
+import { HomeModule } from './home/home.module';
+import { MulchSupplierModule } from './mulch-supplier/mulch-supplier.module';
+import { SoilsModule } from './soils/soils.module';
+import { MulchFundraisersModule } from './mulch-fundraisers/mulch-fundraisers.module';
+import { ContactUsModule } from './contact-us/contact-us.module';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', loadChildren: './home/home.module#HomeModule' },
   { path: 'mulch supplier', loadChildren: './mulch-supplier/mulch-supplier.module#MulchSupplierModule' },
   { path: 'soils', loadChildren: './soils/soils.module#SoilsModule' },
   { path: 'mulch fundraisers', loadChildren: './mulch-fundraisers/mulch-fundraisers.module#MulchFundraisersModule' },
   { path: 'contact us', loadChildren: './contact-us/contact-us.module#ContactUsModule' },
 ];
-
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

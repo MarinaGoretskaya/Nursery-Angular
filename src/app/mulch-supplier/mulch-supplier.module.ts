@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from "@angular/router";
-import { MulchSupplierComponent } from "./mulch-supplier.component";
 
-const routes: Routes = [
-  {path: 'mulch supplier', component: MulchSupplierComponent}
-];
+import { MulchSupplierComponent } from './mulch-supplier.component';
+import { MulchSupplierRoutingModule } from './mulch-supplier-routing.module';
+
+
 
 @NgModule({
   declarations: [
@@ -13,8 +12,12 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    MulchSupplierComponent,
-    RouterModule.forChild(routes)
+    MulchSupplierRoutingModule
+  ],
+  exports:[
+    MulchSupplierComponent
   ]
 })
-export class MulchSupplierModule { }
+export class MulchSupplierModule {}
+
+
