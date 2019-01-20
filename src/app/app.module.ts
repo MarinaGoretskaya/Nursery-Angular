@@ -3,30 +3,39 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { HomeModule } from "./home/home.module";
-import { MulchSupplierModule } from "./mulch-supplier/mulch-supplier.module";
-import { SoilsModule } from "./soils/soils.module";
-import { MulchFundraisersModule } from "./mulch-fundraisers/mulch-fundraisers.module";
-import { ContactUsModule } from "./contact-us/contact-us.module";
+import { HeaderComponentComponent } from "./common-components-module/header-component/header-component.component";
+import { FooterComponentComponent } from "./common-components-module/footer-component/footer-component.component";
+import { MainGreetingComponent } from './common-components-module/main-greeting-component/main-greeting.component'
 
-import { Routes, RouterModule } from "@angular/router";
+// import { CommonComponentsModule } from "./common-components-module/common-components.module"
+
+import { ContactUsModule } from "./contact-us-module/contact-us.module";
+import { SoilsModule } from "./soils-module/soils.module";
+import { MulchSupplierModule } from "./mulch-supplier-module/mulch-supplier.module";
+import { MulchFundraisersModule } from "./mulch-fundraisers-module/mulch-fundraisers.module"
+
+import { RouterModule } from "@angular/router";
 
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponentComponent,
+    FooterComponentComponent,
+    MainGreetingComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     RouterModule,
 
-    HomeModule,
-    MulchSupplierModule,
+    // CommonComponentsModule,
+
+    ContactUsModule,
     SoilsModule,
+    MulchSupplierModule,
     MulchFundraisersModule,
-    ContactUsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
