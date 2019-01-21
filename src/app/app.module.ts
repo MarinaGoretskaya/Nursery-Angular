@@ -5,9 +5,7 @@ import { AppComponent } from './app.component';
 
 import { HeaderComponentComponent } from "./common-components-module/header-component/header-component.component";
 import { FooterComponentComponent } from "./common-components-module/footer-component/footer-component.component";
-import { MainGreetingComponent } from './common-components-module/main-greeting-component/main-greeting.component'
-
-// import { CommonComponentsModule } from "./common-components-module/common-components.module"
+import { MainGreetingComponent } from './common-components-module/main-greeting-component/main-greeting.component';
 
 import { ContactUsModule } from "./contact-us-module/contact-us.module";
 import { SoilsModule } from "./soils-module/soils.module";
@@ -29,8 +27,6 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule,
     BrowserModule,
     RouterModule,
-
-    // CommonComponentsModule,
 
     ContactUsModule,
     SoilsModule,
