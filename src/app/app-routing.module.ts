@@ -19,6 +19,8 @@ const routes: Routes = [
   }
 ];
 
+const m = 1;
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
