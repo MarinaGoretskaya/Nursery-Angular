@@ -18,21 +18,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-auto mt-2 justify-content-center d-flex">
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/mulch-supplier">Mulch&nbsp;Supplier</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/soils">Soils</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/mulch-fundraiser">Mulch&nbsp;Fundraisers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/contact-us">Contact&nbsp;Us</a>
-            </li>
+
+            <li class="nav-item" *ngFor="let item of routes">{{item}}<a class="nav-link" routerLink="/">Home</a></li>
+
+
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" routerLink="/">Home</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" routerLink="/mulch-supplier">Mulch&nbsp;Supplier</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" routerLink="/soils">Soils</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" routerLink="/mulch-fundraiser">Mulch&nbsp;Fundraisers</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+              <!--<a class="nav-link" routerLink="/contact-us">Contact&nbsp;Us</a>-->
+            <!--</li>-->
           </ul>
         </div>
       </nav>
