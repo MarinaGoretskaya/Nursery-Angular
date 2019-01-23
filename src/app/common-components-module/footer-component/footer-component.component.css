@@ -13,10 +13,9 @@
   color: #7b7b7b !important;
   padding: 10px 18px !important;
 }
-.nav-buttom .active, .nav-buttom a:hover {
+.nav-buttom a.active, .nav-buttom a:hover {
   color: #8dc705 !important;
 }
-
 .footer-buttom {
   background-color: #e4e4e4;
   color: #919191;

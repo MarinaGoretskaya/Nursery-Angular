@@ -58,7 +58,7 @@
   justify-content: center;
   color: white;
   padding: 0;
-  top: 41px;
+  top: 40px;
   margin-bottom: 110px;
   position: relative;
 }
@@ -89,7 +89,6 @@
 .navbar-collapse .nav-link {
   text-shadow: none;
 }
-.navbar .nav-link:active,
 .navbar .nav-link:hover {
   background-color: #e46107;
   color: white;
@@ -100,13 +99,16 @@
  /* margin-top: -100px;*/
 }
 
+.navbar .nav-link-active {
+  background-color: #e46107;
+  color: white;
+}
 
 .section-top h3 {
   margin-bottom: 20px;
   font-weight: 300;
   font-size: 34px;
 }
-
 
 
 /*Media*/

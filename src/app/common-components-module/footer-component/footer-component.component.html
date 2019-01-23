@@ -1,11 +1,14 @@
 <div class="nav-buttom">
   <div class="container">
     <nav class="nav justify-content-center">
-      <a class="nav-link" routerLink="">Home</a>
-      <a class="nav-link" routerLink="mulch-suppliers">Mulch&nbsp;Supplier</a>
-      <a class="nav-link" routerLink="soils">Soils</a>
-      <a class="nav-link" routerLink="mulch-fundraisers">Mulch&nbsp;Fundraisers</a>
-      <a class="nav-link" routerLink="contact us">Contact&nbsp;Us</a>
+      <a *ngFor="let item of routes"
+            class="nav-link"
+            [routerLink]="item.path"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:true}">
+            {{ item.data.title }}
+          </a>
+     
     </nav>
   </div>
 </div>
@@ -18,3 +21,4 @@
     </div>
   </div>
 </div>
+
