@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { HeaderComponentComponent } from "./header-component/header-component.component";
-import { FooterComponentComponent } from './footer-component/footer-component.component';
-import { MainGreetingComponent } from "./main-greeting-component/main-greeting.component"
+import { HeaderComponent } from './header-component/header.component';
+import { FooterComponent } from './footer-component/footer.component';
+import { MainGreetingComponent } from './main-greeting-component/main-greeting.component';
 
 @NgModule({
   declarations: [
-    HeaderComponentComponent,
-    FooterComponentComponent,
+    HeaderComponent,
+    FooterComponent,
     MainGreetingComponent
   ],
   imports: [
     CommonModule,
   ],
   exports: [
-    HeaderComponentComponent,
-    FooterComponentComponent,
+    HeaderComponent,
+    FooterComponent,
     MainGreetingComponent
   ]
 })

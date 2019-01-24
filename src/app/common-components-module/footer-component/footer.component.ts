@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { routes } from 'src/app/app-routing.module';
 
 @Component({
-  selector: 'app-footer-component',
-  templateUrl: './footer-component.component.html',
-  styleUrls: ['./footer-component.component.css']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
 })
-export class FooterComponentComponent implements OnInit {
+export class FooterComponent implements OnInit {
 
   readonly routes = routes;
 

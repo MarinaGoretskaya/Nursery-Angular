@@ -1,8 +1,8 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'main-bottom',
+  selector: 'app-main-bottom',
   templateUrl: './main-bottom.component.html',
-  styleUrls: ['./main_bottom-component.component.css']
+  styleUrls: ['./main-bottom.component.css']
 })
 export class MainBottomComponent {}

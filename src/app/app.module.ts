@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { HeaderComponentComponent } from './common-components-module/header-component/header-component.component';
-import { FooterComponentComponent } from './common-components-module/footer-component/footer-component.component';
+import { HeaderComponent } from './common-components-module/header-component/header.component';
+import { FooterComponent } from './common-components-module/footer-component/footer.component';
 import { MainGreetingComponent } from './common-components-module/main-greeting-component/main-greeting.component';
 
 import { ContactUsModule } from './contact-us-module/contact-us.module';
@@ -19,8 +19,8 @@ import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponentComponent,
-    FooterComponentComponent,
+    HeaderComponent,
+    FooterComponent,
     MainGreetingComponent
   ],
   imports: [

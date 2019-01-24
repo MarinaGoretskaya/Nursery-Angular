@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mulch-fundraisers',
@@ -6,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MulchFundraisersComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private router: Router) {}
+  onMulch() {
+    this.router.navigate(['/mulch']);
   }
+  onCompost() {
+    this.router.navigate(['/compost']);
+  }
+
+  ngOnInit() {}
 
 }

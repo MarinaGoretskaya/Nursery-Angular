@@ -24,6 +24,9 @@ li {
   margin: 0 auto;
   padding: 0;
 }
+.container-flex {
+  display: flex;
+}
 
 .row {
   margin: 0;
@@ -64,13 +67,16 @@ h3 {
   text-transform: uppercase;
   font-family: font76638, sans-serif;
 }
+.btn-small {
+  padding: 10px 25px;
+  margin: 5px; 
+}
 button:focus {
   outline: none;
 }
 
 .section-middle {
-  background-color: #26311c;
-  min-height: 600px;
+  background-color: #26311c; 
   padding: 15px 0;
   /*border-bottom: 4px solid #e46107;  */
 }
